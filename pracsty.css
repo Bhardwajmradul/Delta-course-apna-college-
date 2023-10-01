@@ -1,0 +1,28 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+i{
+    color:#d56f3e;
+    font-size:16px;
+    margin:0px;
+    padding:0px;
+    letter-spacing: 0.02px;
+}
+h2{
+    margin:5px 5.3px 0px;
+}
+span{
+    color:#9d6f24;
+}
+h1{
+    font-size:21px;
+    margin:13px 5px 0px;
+    letter-spacing: 0.1px;
+
+}
+.pet{
+    display:flex;
+    height:570px;
+    width:1082px;
+}

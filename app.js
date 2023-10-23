@@ -1,10 +1,14 @@
-let color=prompt("enter the color")
-if(color=='red'){
-console.log("Stop!")
+function num(nub){
+    let a=[4,1,8,3,5,6]
+    let t=0
+    let d
+    for(let i=0;i<a.length;i++){
+        if(nub-a[i]>0 && nub-a[i]<=t){
+            t=nub-a[i]
+            d=i
+        }
+    }
+    return a[d]
 }
-if(color=='green'){
-console.log("Go!")
-}
-if(color=='yellow'){
-console.log("Wait")
-}
+
+console.log(num(5))
